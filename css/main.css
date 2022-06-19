@@ -20,11 +20,13 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
     }
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 
 h1,
@@ -33,6 +35,10 @@ h3,
 p,
 ul {
     margin: 0;
+}
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -112,7 +118,6 @@ ul {
 .page-header .page-head {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .hero {
@@ -176,6 +181,10 @@ ul {
     display: flex;
     padding-left: 0;
     list-style-type: none;
+}
+
+.features-list-item {
+    width: 270px;
 }
 
 .features-list-item + .features-list-item {
@@ -246,7 +255,6 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -254,7 +262,11 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    margin-bottom: 30px;
+    
+}
+.team-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .filters {
@@ -302,13 +314,12 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 20px 24px 4px 24px;
+    margin-bottom: 4px;
 }
 
 .portfolio-type {
     font-size: 16px;
     line-height: 1.88;
-    margin: 0 24px 20px 24px;
 }
 
 .portfolio-item {
@@ -320,8 +331,21 @@ ul {
     margin-right: 0;
 }
 
+.portfolio-list-item {
+    padding: 20px 24px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    
+}
+
+.img-no-gap {
+    display: block;
+}
+
 .page-footer {
     background-color: var(--secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -345,10 +369,6 @@ ul {
     margin-top: 20px;
 }
 
-.footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
 
 .address p,
 .address .mail-footer,
